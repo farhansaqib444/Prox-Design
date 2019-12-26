@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Proxx</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--	style link-->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+	<!--	Font awesom-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+		 crossorigin="anonymous">
+</head>
+<body>
+
+<div id="container">
+	<div id="header">
+		<section class="">
+			<nav class="navbar navbar-expand-lg navbar-light text-white header-bg-black header-nav-padding">
+				<a class="navbar-brand text-white header-prox-link" href="#">PROXX
+
+				</a>
+				<button class="navbar-toggler bg-white text-black-50" type="button">
+					<!--					<span class="navbar-toggler-icon"></span>-->
+					<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+				</button>
+
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link text-white header-link" href="#">Browse <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">News</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">App</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">My Account</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">Sign Out</a>
+						</li>
+
+
+					</ul>
+
+				</div>
+			</nav>
+			<div class="header-bg-black">
+
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-light text-white header-bg-black header-nav-padding" style="margin-top: -23px;">
+				<form>
+					<div class="input-group mb-3 search-box">
+						<input type="text" class="form-control border-0 rounded-0 shadow-none " placeholder="SEARCH FOR BRAND" aria-label="SEARCH FOR BRAND"
+							  aria-describedby="basic-addon2">
+						<div class="input-group-append">
+
+							<span class="input-group-text index-search-btn border-0" id="basic-addon2"><img src="./img/icons/Line 92.png"
+																							style="height: 20px;padding-right: 12px;"><i
+								   class="fas fa-search"></i></span>
+						</div>
+					</div>
+				</form>
+
+
+			</nav>
+		</section>
+
+	</div>
+	<div id="body">
+		<!--		Side navbar open-->
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="Buying%20Pending.html" class="text-white"><img src="./img/icons/shopping-cart-black-shape.png" class="pr-2"> Buying</a>
+			<a href="Selling%20Pending.html" class="text-white"><img src="./img/icons/icon.png" class="pr-2"> Selling</a>
+			<a href="#" class="text-white"><img src="./img/icons/briefcase.png" class="pr-2">Portfolio</a>
+			<a href="#" class="text-white"><img src="./img/icons/Path%2098.png" class="pr-2">Following</a>
+			<a href="#" class="text-white"><img src="./img/icons/settings.png" class="pr-2">Settings</a>
+			<a href="#" class="text-white"><i class="fas fa-sign-out-alt pr-2"></i>Sign out</a>
+		</div>
+
+		<!--	side navbar end-->
+
+		<div class="wrapper">
+			<!-- Sidebar  -->
+			<nav id="sidebar" class="shadow side-bar-display">
+				<div class="sidebar-header text-center">
+					<a href="Profile.html" class="text-black-50 text-decoration-none">
+						<h3>Benjamin Riley</h3>
+						<div class="d-flex flex-row justify-content-center">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</a>
+				</div>
+
+				<ul class="list-unstyled components">
+
+
+					<li class="text-center selling-pendin-li">
+
+						<a href="Buying%20Pending.html" class="text-white">
+							<img src="./img/icons/shopping-cart-black-shape.png">
+							<br>Buying</a>
+					</li>
+					<!--					<li>-->
+					<!--						<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>-->
+					<!--						<ul class="collapse list-unstyled" id="pageSubmenu">-->
+					<!--							<li>-->
+					<!--								<a href="#">Page 1</a>-->
+					<!--							</li>-->
+					<!--							<li>-->
+					<!--								<a href="#">Page 2</a>-->
+					<!--							</li>-->
+					<!--							<li>-->
+					<!--								<a href="#">Page 3</a>-->
+					<!--							</li>-->
+					<!--						</ul>-->
+					<!--					</li>-->
+					<li class="text-center selling-pendin-li">
+
+						<a href="Selling%20Pending.html" class="text-white">
+							<img src="./img/icons/icon.png">
+							<br>
+							Selling</a>
+					</li>
+					<li class="text-center  selling-pendin-li">
+
+						<a href="#" class="text-white">
+							<img src="./img/icons/briefcase.png">
+							<br>Portfolio</a>
+					</li>
+					<li class="text-center selling-pendin-li">
+
+						<a href="Following.html" class="text-white">
+							<img src="./img/icons/Path%2098.png"><br>
+							Following</a>
+					</li>
+					<li class="text-center  selling-pendin-li">
+
+						<a href="Delivery%20Address.html" class="text-white">
+							<img src="./img/icons/settings.png"><br>
+							Settings</a>
+					</li>
+				</ul>
+
+
+			</nav>
+
+			<!-- Page Content  -->
+
+			<div id="content">
+
+				<p class="h3 font-weight-bold">YOUR PORTFOLIO</p>
+
+				<div class="table-responsive pt-4">
+					<table class="table">
+						<thead class="text-center text-white">
+						<tr>
+							<th scope="col" style="background-color: #2F2F2F; width: 15rem;border: 1px white solid;">Item</th>
+							<th scope="col" style="background-color: #2F2F2F;border: 1px white solid;width: 10rem;">Purchase Date</th>
+							<th scope="col" style="background-color: #2F2F2F;border: 1px white solid;width: 10rem;">Purchase Price</th>
+							<th scope="col" style="background-color: #2F2F2F;border: 1px white solid;width: 10rem;">Market Value</th>
+							<th scope="col" style="background-color: #2F2F2F;border: 1px white solid;width: 10rem;">Gain/Loss</th>
+						</tr>
+						</thead>
+						<tbody class="text-center" style="background-color: #F8F8F8;">
+						<tr>
+							<td>
+								<div class="d-flex flex-row justify-content-start">
+									<div class="p-1">
+										<img src="./img/products/Screenshot%202019-07-13%20at%2016.16.24.png"
+											style="width: 60px;height: 60px;object-fit: cover;">
+									</div>
+									<div class="p-1">
+										<div class="d-flex flex-column justify-content-between">
+											<div>
+												<p class="mb-0">SUPREME®/CHAMPION®<br>
+													CHROME S/S TOP BLACK</p>
+											</div>
+											<div class="text-left">
+												<p class="mb-0 d-inline">Size:</p>
+												<p class="mb-0 d-inline font-weight-bold pl-2">L</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</td>
+							<td>10/11/2019</td>
+							<td>£237</td>
+							<td>£244</td>
+							<td>
+								<p class="mb-0 text-success">£237(170%)</p>
+
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="d-flex flex-row justify-content-start">
+									<div class="p-1">
+										<img src="./img/products/Screenshot%202019-07-13%20at%2016.16.24.png"
+											style="width: 60px;height: 60px;object-fit: cover;">
+									</div>
+									<div class="p-1">
+										<div class="d-flex flex-column justify-content-between">
+											<div>
+												<p class="mb-0">SUPREME®/CHAMPION®<br>
+													CHROME S/S TOP BLACK</p>
+											</div>
+											<div class="text-left">
+												<p class="mb-0 d-inline">Size:</p>
+												<p class="mb-0 d-inline font-weight-bold pl-2">L</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</td>
+							<td>10/11/2019</td>
+							<td>£237</td>
+							<td>£244</td>
+							<td>
+								<p class="mb-0 text-danger"> -£237(170%)</p>
+
+							</td>
+						</tr>
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div id="footer">
+		<section class="footer-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-3">
+
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<div class="row">
+							<div class="col-sm-12 text-center">
+								<p class="mb-0" style="font-size: 48px;">Proxx</p>
+							</div>
+						</div>
+						<div class="row pt-4 pb-2">
+							<div class="col">
+
+							</div>
+							<div class="col-sm-12 col-md-2 p-sm-2">
+								<a class="mb-0">FAQ</a>
+							</div>
+							<div class="col-sm-12 col-md-3 p-sm-2">
+								<a class="mb-0">HOW IT WORKS</a>
+							</div>
+							<div class="col-sm-12 col-md-2 p-sm-2">
+								<p class="mb-0">REVIEWS</p>
+							</div>
+							<div class="col-sm-12 col-md-2 p-sm-2">
+								<p class="mb-0">TERMS</p>
+							</div>
+							<div class="col-sm-12 col-md-2 p-sm-2">
+								<p class="mb-0">CONTACT</p>
+							</div>
+							<div class="col">
+
+							</div>
+						</div>
+
+						<div class="row pt-3 pb-3">
+							<div class="col text-center">
+
+
+								<button class="btn p-2 rounded-0 text-white" style="width: 11rem;border: 2px white solid;font-size: 14px;">GET THE APP<i
+									   class="fab fa-apple pl-3" style="font-size: 22px;"></i>
+								</button>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="col-sm-12 col-md-12">
+								<div class="d-flex flex-row justify-content-center">
+									<div class="p-2">
+										<i class="fab fa-facebook-f"></i>
+									</div>
+									<div class="p-2">
+										<i class="fab fa-twitter"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row p-2">
+							<div class="col">
+								<hr class="bg-white m-0" style="">
+							</div>
+						</div>
+						<div class="row p-2">
+							<div class="col text-center">
+								<p class="mb-2" style="font-size: 14px;">2019 Proxx. All Rights Reserved</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-sm-12 col-md-3">
+
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+
+
+<!--Script-->
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

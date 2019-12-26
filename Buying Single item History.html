@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Proxx</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--	style link-->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+	<!--	Font awesom-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+		 crossorigin="anonymous">
+</head>
+<body>
+
+<div id="container">
+	<div id="header">
+		<section class="">
+			<nav class="navbar navbar-expand-lg navbar-light text-white header-bg-black header-nav-padding">
+				<a class="navbar-brand text-white header-prox-link" href="#">PROXX
+
+				</a>
+				<button class="navbar-toggler bg-white text-black-50" type="button">
+					<!--					<span class="navbar-toggler-icon"></span>-->
+					<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+				</button>
+
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link text-white header-link" href="#">Browse <span class="sr-only">(current)</span></a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">App</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">Login</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">Sign Up</a>
+						</li>
+
+
+					</ul>
+
+				</div>
+			</nav>
+			<div class="header-bg-black">
+
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-light text-white header-bg-black header-nav-padding" style="margin-top: -23px;">
+				<form>
+					<div class="input-group mb-3 search-box">
+						<input type="text" class="form-control border-0 rounded-0 shadow-none " placeholder="SEARCH FOR BRAND" aria-label="SEARCH FOR BRAND"
+							  aria-describedby="basic-addon2">
+						<div class="input-group-append">
+							<span class="input-group-text index-search-btn border-0" id="basic-addon2"><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+				</form>
+
+
+			</nav>
+		</section>
+
+	</div>
+	<div id="body">
+		<!--		Side navbar open-->
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#" class="text-white"><img src="./img/icons/shopping-cart-black-shape.png" class="pr-2"> Buying</a>
+			<a href="#" class="text-white"><img src="./img/icons/icon.png" class="pr-2"> Selling</a>
+			<a href="#" class="text-white"><img src="./img/icons/briefcase.png" class="pr-2">Portfolio</a>
+			<a href="#" class="text-white"><img src="./img/icons/Path%2098.png" class="pr-2">Following</a>
+			<a href="#" class="text-white"><img src="./img/icons/settings.png" class="pr-2">Settings</a>
+			<a href="#" class="text-white"><i class="fas fa-sign-out-alt pr-2"></i>Sign out</a>
+		</div>
+
+		<!--	side navbar end-->
+
+		<div class="wrapper">
+			<!-- Sidebar  -->
+			<nav id="sidebar" class="shadow side-bar-display">
+				<div class="sidebar-header text-center">
+					<h3>Benjamin Riley</h3>
+					<div class="d-flex flex-row justify-content-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+				</div>
+
+				<ul class="list-unstyled components">
+
+
+					<li class="text-center selling-pendin-li">
+
+						<a href="#" class="text-white">
+							<img src="./img/icons/shopping-cart-black-shape.png">
+							<br>Buying</a>
+					</li>
+					<!--					<li>-->
+					<!--						<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>-->
+					<!--						<ul class="collapse list-unstyled" id="pageSubmenu">-->
+					<!--							<li>-->
+					<!--								<a href="#">Page 1</a>-->
+					<!--							</li>-->
+					<!--							<li>-->
+					<!--								<a href="#">Page 2</a>-->
+					<!--							</li>-->
+					<!--							<li>-->
+					<!--								<a href="#">Page 3</a>-->
+					<!--							</li>-->
+					<!--						</ul>-->
+					<!--					</li>-->
+					<li class="text-center selling-pendin-li">
+
+						<a href="#" class="text-white">
+							<img src="./img/icons/icon.png">
+							<br>
+							Selling</a>
+					</li>
+					<li class="text-center  selling-pendin-li">
+
+						<a href="#" class="text-white">
+							<img src="./img/icons/briefcase.png">
+							<br>Portfolio</a>
+					</li>
+					<li class="text-center selling-pendin-li">
+
+						<a href="#" class="text-white">
+							<img src="./img/icons/Path%2098@2x.png"><br>
+							Following</a>
+					</li>
+					<li class="text-center  selling-pendin-li">
+
+						<a href="#" class="text-white">
+							<img src="./img/icons/shopping-cart-black-shape@2x.png"><br>
+							Settings</a>
+					</li>
+				</ul>
+
+
+			</nav>
+
+			<!-- Page Content  -->
+
+			<div id="content" class="">
+				<section class="selling-single-item-section">
+					<div class="row">
+						<div class="col">
+							<button class="btn btn-default shadow-none  border-0 p-0" style="font-size: 22px;">
+								<i class="fas fa-times"></i>
+							</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md-6 text-center p-2">
+							<section class="bg-white" style="padding: 44px;">
+								<img src="./img/products/Screenshot%202019-07-13%20at%2016.16.24.png" style="width: 16rem;object-fit: cover;height: 15rem;">
+							</section>
+						</div>
+						<div class="col-sm-12 col-md-6 p-2">
+							<div class="row">
+								<div class="col">
+									<p class="mb-0 font-weight-bold" style="font-size: 18px">Supreme®/Jean Paul Gaultier® Tee Medium</p>
+								</div>
+							</div>
+							<div class="row pt-4 pb-4">
+								<div class="col">
+									<div class="p-2 shadow text-center text-white" style="background-color: #2F2F2F;width: 10rem;">
+										<p class="d-inline mb-0 font-weight-bold h4">£253</p>
+										<p class="d-inline mb-0 pl-2 " style="font-size: 13px;">incl. delivery</p>
+									</div>
+
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="d-flex flex-row justify-content-start">
+										<div class="d-flex flex-column justify-content-center">
+											<p class="mb-0 font-weight-bold">Buyer:</p>
+										</div>
+										<div class="d-flex flex-column justify-content-center pl-3">
+											<div>
+												<button class="btn btn-default shadow-none border-0 p-0" data-toggle="modal" data-target="#exampleModalCenter">
+													<div class="d-flex flex-row justify-content-center">
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+													</div>
+												</button>
+											</div>
+											<div>
+												<p class="mb-0 font-weight-bold" style="color: #989898;">len****w</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row pt-3 pb-3">
+								<div class="col">
+									<p class="mb-0 d-inline">SIZE:</p>
+									<p class="mb-0 d-inline font-weight-bold pl-1">L</p>
+								</div>
+							</div>
+							<div class="row pb-3">
+								<div class="col">
+									<img class="d-inline " src="./img/icons/Ellipse 9.png">
+									<p class="d-inline mb-0 pl-1">Successfully
+										Delivered</p>
+								</div>
+							</div>
+							<div class="p-3 mb-3" style="border: 1px #C9C9C9 solid">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<p class="mb-0 font-weight-bold h4"> £247.00</p>
+									</div>
+									<div>
+
+									</div>
+								</div>
+								<div class="d-flex flex-row justify-content-between pt-2 ">
+									<div>
+										<p class="mb-0 "> PayPal Protection (3%)</p>
+									</div>
+									<div>
+										<p class="d-inline mb-0">-</p>
+										<p class="d-inline mb-0">£3.84</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="p-3" style="border: 2px #2F2F2F solid">
+								<div class="d-flex flex-row justify-content-between">
+									<div>
+										<P class="mb-0">Style</p>
+									</div>
+									<div>
+
+										<p class="mb-0 font-weight-bold"> £247.00</p>
+									</div>
+								</div>
+								<div class="d-flex flex-row justify-content-between pt-2">
+									<div>
+										<p class="mb-0 ">Purchased Date</p>
+									</div>
+									<div>
+
+										<p class="mb-0 font-weight-bold">4/28/2019</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content rounded-0">
+						<div class="modal-header text-white rounded-0" style="background-color: #000000;">
+							<h5 class="modal-title" id="exampleModalCenterTitle">RATE</h5>
+							<button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body p-0">
+							<div class="card border-0 rounded-0 shadow-sm text-center p-2" style="background-color: #F3F3F3">
+								<div class="card-body p-0">
+									<p class="mb-0 h5 font-weight-bold">
+										Ronnie Rivera
+									</p>
+									<div class="d-inline d-flex flex-row justify-content-center">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+									<p class="mb-0 d-inline font-weight-bold pl-2">(5.0)</p>
+								</div>
+							</div>
+							<div class="card border-0 rounded-0 shadow-sm text-center mt-4 p-2" style="background-color: #F3F3F3">
+								<div class="card-body p-0">
+									<div class="d-flex flex-row justify-content-between">
+										<div class="p-2 ">
+											<p class="mb-0">Delivery Time</p>
+										</div>
+										<div class="p-2 ">
+
+											<div class="d-inline d-flex flex-row justify-content-center">
+												<i class="fas fa-star"></i>
+												<i class="fas fa-star"></i>
+												<i class="fas fa-star"></i>
+												<i class="fas fa-star"></i>
+												<i class="fas fa-star"></i>
+											</div>
+
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+							<div class="card border-0 rounded-0 shadow-sm text-center mt-3 p-2" style="background-color: #F3F3F3">
+								<div class="card-body p-0">
+									<div class="d-flex flex-row justify-content-between">
+										<div class="p-2 ">
+											<p class="mb-0">Item As Expected</p>
+										</div>
+										<div class="p-2 ">
+
+											<div class="d-inline d-flex flex-row justify-content-center">
+												<i class="fas fa-star"></i>
+												<i class="fas fa-star"></i>
+												<i class="fas fa-star"></i>
+												<i class="fas fa-star"></i>
+												<i class="fas fa-star"></i>
+											</div>
+
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+							<div class="card border-0 rounded-0 shadow-sm text-center mt-3 p-2" style="background-color: #F3F3F3">
+								<div class="card-body p-0">
+									<div class="d-flex flex-row justify-content-between">
+										<div class="p-2 ">
+											<p class="mb-0">Overall Statisfaction</p>
+										</div>
+										<div class="p-2 ">
+
+											<div class="d-inline d-flex flex-row justify-content-center">
+												<i class="fas fa-star"></i>
+												<i class="fas fa-star"></i>
+												<i class="fas fa-star"></i>
+												<i class="fas fa-star"></i>
+												<i class="fas fa-star"></i>
+											</div>
+
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+						</div>
+						<div class="p-4 text-white border-0">
+							<div class="text-center">
+								<button type="button" class="btn shadow p-1 text-white text-center rounded-0" style="width: 10rem;background-color: #2F2F2F;">RATE
+								</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div id="footer">
+		<section class="footer-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-3">
+
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<div class="row">
+							<div class="col-sm-12 text-center">
+								<p class="mb-0" style="font-size: 48px;">Proxx</p>
+							</div>
+						</div>
+						<div class="row pt-4 pb-2">
+							<div class="col">
+
+							</div>
+							<div class="col-sm-12 col-md-2 p-sm-2">
+								<a class="mb-0">FAQ</a>
+							</div>
+							<div class="col-sm-12 col-md-3 p-sm-2">
+								<a class="mb-0">HOW IT WORKS</a>
+							</div>
+							<div class="col-sm-12 col-md-2 p-sm-2">
+								<p class="mb-0">REVIEWS</p>
+							</div>
+							<div class="col-sm-12 col-md-2 p-sm-2">
+								<p class="mb-0">TERMS</p>
+							</div>
+							<div class="col-sm-12 col-md-2 p-sm-2">
+								<p class="mb-0">CONTACT</p>
+							</div>
+							<div class="col">
+
+							</div>
+						</div>
+
+						<div class="row pt-3 pb-3">
+							<div class="col text-center">
+
+
+								<button class="btn p-2 rounded-0 text-white" style="width: 11rem;border: 2px white solid;">GET THE APP<i class="fab fa-apple pl-3"></i>
+								</button>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="col-sm-12 col-md-12">
+								<div class="d-flex flex-row justify-content-center">
+									<div class="p-2">
+										<i class="fab fa-facebook-f"></i>
+									</div>
+									<div class="p-2">
+										<i class="fab fa-twitter"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<hr class="bg-white" style="">
+							</div>
+						</div>
+						<div class="row ">
+							<div class="col text-center">
+								<p class="mb-0" style="font-size: 14px;">2019 Proxx. All Rights Reserved</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-sm-12 col-md-3">
+
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+
+
+<!--Script-->
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

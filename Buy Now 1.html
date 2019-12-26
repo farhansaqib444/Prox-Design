@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Proxx</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--	style link-->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+	<!--	Font awesom-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+		 crossorigin="anonymous">
+</head>
+<body>
+
+<div id="container">
+	<div id="header">
+		<section class="">
+			<nav class="navbar navbar-expand-lg navbar-light text-white header-bg-black header-nav-padding">
+				<a class="navbar-brand text-white header-prox-link" href="#">PROXX
+
+				</a>
+				<button class="navbar-toggler bg-white text-black-50" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link text-white header-link" href="#">Browse <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">News</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">App</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">Login</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white header-link" href="#">Sign Up</a>
+						</li>
+
+
+					</ul>
+
+				</div>
+			</nav>
+			<div class="header-bg-black">
+
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-light text-white header-bg-black header-nav-padding" style="margin-top: -23px;">
+				<form>
+					<div class="input-group mb-3 search-box">
+						<input type="text" class="form-control border-0 rounded-0 shadow-none " placeholder="SEARCH FOR BRAND" aria-label="SEARCH FOR BRAND"
+							  aria-describedby="basic-addon2">
+						<div class="input-group-append">
+
+							<span class="input-group-text index-search-btn border-0" id="basic-addon2"><img src="./img/icons/Line 92.png" style="height: 20px;padding-right: 12px;"><i class="fas fa-search"></i></span>
+						</div>
+					</div>
+				</form>
+
+
+			</nav>
+		</section>
+
+	</div>
+	<div id="body">
+		<div class="container">
+			<div class="row pt-5 " style="padding-bottom: 7rem;">
+				<div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center text-center p-2">
+					<div class="d-flex flex-row justify-content-center">
+						<img src="./img/products/Screenshot%202019-07-13%20at%2016.16.24.png" class="place-a-bid-img">
+					</div>
+
+				</div>
+				<div class="col-sm-12 col-md-6 p-2">
+					<section class="pt-2 pb-2" style="background-color: #F8F8F8;">
+						<div class="row">
+							<div class="col-sm-12 col-md-12 text-center">
+								<p class="mb-0">SUPREME®/CHAMPION® CHROME S/S TOP BLACK</p>
+							</div>
+						</div>
+						<div class="row pt-3 pb-3">
+							<div class="col text-center">
+								<P class="mb-0 d-inline pr-2" style="color: #8D8D8D;vertical-align: middle;">SIZE</p>
+								<button class="btn p-2 rounded-0 text-white bg-dark shadow-none" data-toggle="modal" data-target="#exampleModalCenter"
+									   style="width: 5rem;border: 2px white solid;padding: 3px !important;">SIZE
+								</button>
+							</div>
+						</div>
+						<div class="p-1 place-a-bid-current-highest">
+							<div class="row">
+								<div class="col text-white text-center">
+									<p class="mb-0 d-inline">Current Highest Bid:</p>
+									<p class="mb-0 d-inline font-weight-bold pl-2">£301</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="row pt-3 pb-1 ">
+							<div class="col ">
+								<form class="m-2">
+									<div class="form-group row">
+										<div class="col-sm-2">
+
+										</div>
+										<label for="staticBid" class="col-sm-3 col-form-label">BUY NOW:</label>
+										<div class="col-sm-5">
+											<input type="text" class="form-control-plaintext place-a-bid-amount-text-field" id="staticBid"
+												  oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+										</div>
+										<div class="col-sm-2">
+
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<section class="p-2 place-a-bid-font-size" style="background-color: #F3F3F3;">
+							<div class="d-flex flex-row justify-content-between">
+								<div class="p-2">
+									<p class="mb-0">PayPal Protection (3%)</p>
+								</div>
+								<div class="p-2">
+									<p class="mb-0 d-inline">+</p>
+									<p class="mb-0 d-inline">£9.00</p>
+
+								</div>
+							</div>
+							<div class="d-flex flex-row justify-content-between">
+								<div class="p-2">
+									<p>Discount</p>
+								</div>
+								<div class="p-2">
+									<p class="mb-0 d-inline" style="color: #8F8F8F">+</p>
+									<p class="mb-0 d-inline" style="color: #8F8F8F"> Add Discount</p>
+								</div>
+							</div>
+
+							<div>
+								<hr class="m-0">
+							</div>
+							<div class="d-flex flex-row justify-content-between">
+								<div class="p-2">
+									<p class="mb-0 font-weight-bold">Total you will pay:</p>
+								</div>
+								<div class="p-2">
+
+									<p class="mb-0 font-weight-bold">£309.00</p>
+								</div>
+							</div>
+
+						</section>
+						<div class="row pt-3 pb-2">
+							<div class="col">
+								<div class="d-flex flex-row justify-content-center place-a-bid-font-size ">
+									<div class="p-2 ">
+										<p class="mb-0 font-weight-bold pr-2">BID EXPIRES IN:</p>
+									</div>
+									<div class="p-2 place-a-bid-expire shadow">
+										30-12-19
+									</div>
+									<div class="p-2 ">
+										<i class="far fa-clock pl-1"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row p-2">
+							<div class="col text-center">
+								<div class="custom-control custom-checkbox mr-sm-2">
+									<input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+									<label class="custom-control-label mb-0 place-a-bid-font-size" for="customControlAutosizing">I AGREE TO THE TERMS AND CONDITIONS</label>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col text-center">
+								<button class="btn p-2 rounded-0 text-white bg-dark shadow-none" style="width: 10rem;border: 2px white solid;">BUY NOW
+								</button>
+							</div>
+						</div>
+
+					</section>
+				</div>
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade border-0" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="VIEW-ALL-ASKS-Title" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header" STYLE="background-color: #000000;">
+						<h5 class="modal-title text-white" id="exampleModalCenterTitle">SIZE</h5>
+						<button type="button " class="close text-white" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-sm-12 col-md-6 p-2">
+								<button class="btn shadow border-0 single-item-btn-modal p-3 btn-block " data-dismiss="modal">
+									<p class="mb-0 font-weight-bold h4">S</p>
+									<p class="mb-0">£295</p>
+								</button>
+							</div>
+							<div class="col-sm-12 col-md-6 p-2">
+								<button class="btn shadow border-0 single-item-btn-modal p-3 btn-block" data-dismiss="modal">
+									<p class="mb-0 font-weight-bold h4">M</p>
+									<p class="mb-0">£295</p>
+								</button>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6 p-2">
+								<button class="btn shadow border-0 single-item-btn-modal p-3 btn-block" data-dismiss="modal">
+									<p class="mb-0 font-weight-bold h4">L</p>
+									<p class="mb-0">£295</p>
+								</button>
+							</div>
+							<div class="col-sm-12 col-md-6 p-2">
+								<button class="btn shadow border-0 single-item-btn-modal p-3 btn-block" data-dismiss="modal">
+									<p class="mb-0 font-weight-bold h4">XL</p>
+									<p class="mb-0">£295</p>
+								</button>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6 p-2">
+								<button class="btn shadow border-0 single-item-btn-modal p-3 btn-block" data-dismiss="modal">
+									<p class="mb-0 font-weight-bold h4">XXL</p>
+									<p class="mb-0">£295</p>
+								</button>
+							</div>
+							<div class="col-sm-12 col-md-6 p-2">
+								<button class="btn shadow border-0 single-item-btn-modal p-3 btn-block" data-dismiss="modal">
+									<p class="mb-0 font-weight-bold h4">XXXL</p>
+									<p class="mb-0">£295</p>
+								</button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<section class="footer-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-3">
+
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<div class="row">
+							<div class="col-sm-12 text-center">
+								<p class="mb-0" style="font-size: 48px;">Proxx</p>
+							</div>
+						</div>
+						<div class="row pt-4 pb-2">
+							<div class="col">
+
+							</div>
+							<div class="col-sm-12 col-md-2 p-sm-2">
+								<a class="mb-0">FAQ</a>
+							</div>
+							<div class="col-sm-12 col-md-3 p-sm-2">
+								<a class="mb-0">HOW IT WORKS</a>
+							</div>
+							<div class="col-sm-12 col-md-2 p-sm-2">
+								<p class="mb-0">REVIEWS</p>
+							</div>
+							<div class="col-sm-12 col-md-2 p-sm-2">
+								<p class="mb-0">TERMS</p>
+							</div>
+							<div class="col-sm-12 col-md-2 p-sm-2">
+								<p class="mb-0">CONTACT</p>
+							</div>
+							<div class="col">
+
+							</div>
+						</div>
+
+						<div class="row pt-3 pb-3">
+							<div class="col text-center">
+
+
+								<button class="btn p-2 rounded-0 text-white" style="width: 11rem;border: 2px white solid;font-size: 14px;">GET THE APP<i class="fab fa-apple pl-3" style="font-size: 22px;"></i>
+								</button>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="col-sm-12 col-md-12">
+								<div class="d-flex flex-row justify-content-center">
+									<div class="p-2">
+										<i class="fab fa-facebook-f"></i>
+									</div>
+									<div class="p-2">
+										<i class="fab fa-twitter"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row p-2">
+							<div class="col">
+								<hr class="bg-white m-0" style="">
+							</div>
+						</div>
+						<div class="row p-2">
+							<div class="col text-center">
+								<p class="mb-2" style="font-size: 14px;">2019 Proxx. All Rights Reserved</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-sm-12 col-md-3">
+
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+
+
+<!--Script-->
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
